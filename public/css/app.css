@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 100px;
+  text-align: center;
+  background-color: bisque;
+  margin-bottom: 3rem;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: bisque;
+  margin-top: 3rem;
+}
+
 .container {
   width: 1200px;
   margin: auto;

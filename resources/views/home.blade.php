@@ -6,11 +6,11 @@
     <div class="row">
         @foreach($movies as $movie)
             <div class="card">
-                <h2>{{$movie['title']}}</h2>
-                <h2>{{$movie['original_title']}}</h2>
-                <h2>{{$movie['nationality']}}</h2>
-                <h2>{{$movie['date']}}</h2>
-                <h2>{{$movie['vote']}}</h2>
+                <div class="text"><Strong>Titolo :</Strong>{{$movie['title']}}</div class="text">
+                <div class="text"><Strong>Titolo-originale :</Strong>{{$movie['original_title']}}</div class="text">
+                <div class="text"><Strong>nazionalita :</Strong>{{$movie['nationality']}}</div class="text">
+                <div class="text"><Strong>Anno :</Strong>{{$movie['date']}}</div class="text">
+                <div class="text"><Strong>Voto :</Strong>{{$movie['vote']}}</div class="text">
             </div>
             <!-- /.card -->
         @endforeach

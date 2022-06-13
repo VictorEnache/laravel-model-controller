@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.card {
+  border: 1px solid brown;
+  width: calc(20% - 1rem + 0.2rem);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.card .text {
+  border-bottom: 1px solid grey;
+  padding-top: 1rem;
+}
+

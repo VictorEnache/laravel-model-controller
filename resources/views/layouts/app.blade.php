@@ -12,6 +12,12 @@
 
     </head>
     <body>
-        <h1>HOME</h1>
+            @include('partials.header')
+
+        <main>
+            @yield('content')
+        </main>
+            @include('partials.footer')
+
     </body>
 </html>
